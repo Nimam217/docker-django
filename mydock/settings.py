@@ -25,11 +25,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', '0') == '1'
+DEBUG = True
 
 ALLOWED_HOSTS = ['docker-django-e2ld.onrender.com']
 
-# Application definition
+# Application definitionF
 
 INSTALLED_APPS = [
     'django.contrib.admin',
